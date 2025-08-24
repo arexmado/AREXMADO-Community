@@ -110,7 +110,7 @@
 <!-- 커뮤니티 -->
 <section id="community" class="max-w-6xl mx-auto px-4 py-16">
   <h2 class="text-2xl md:text-3xl font-bold mb-6">💬 커뮤니티</h2>
-  <div class="grid md:grid-cols-3 gap-6">
+  <div class="grid md:grid-cols-4 gap-6">
     <a href="https://www.youtube.com/@arexmado" target="_blank"
        class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
        📺 YouTube 채널
@@ -123,9 +123,10 @@
        class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
        🎮 Discord 서버
     </a>
-     <a href="https://ch.sooplive.co.kr/arexmado" target="_blank"
+    <a href="https://afreecatv.com/soop" target="_blank"
        class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
        📡 Soop 아프리카TV
+    </a>
   </div>
 </section>
 
@@ -139,14 +140,14 @@
     </details>
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">이벤트 소식은 어디서 확인하나요?</summary>
-      <p class="mt-2 text-slate-300">공지사항 섹션과 유튜브 커뮤니티, 팬카페 공지 게시판을 확인해주세요.</p>
+      <p class="mt-2 text-slate-300">공지사항 섹션과 유튜브 커뮤니티, 팬카페 공지, soop(아프리카) 게시판을 확인해주세요.</p>
     </details>
   </div>
 </section>
 
 <!-- 푸터 -->
 <footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500">
-  © <span id="year"></span> AREXMADO Community. All rights reserved.
+  © 2025 AREXMADO Community. All rights reserved.
 </footer>
 
 <script>
