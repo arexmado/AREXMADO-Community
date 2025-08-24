@@ -14,6 +14,7 @@
   <style>
     .card-glow { box-shadow: 0 10px 25px rgba(2,132,199,.15); }
     .hide { display: none; }
+    header { transition: transform 0.3s ease; } /* 헤더 부드럽게 */
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 selection:bg-cyan-400/40">
@@ -39,7 +40,7 @@
 </header>
 
 <!-- Hero -->
-<section id="top" class="pt-28">
+<section id="top" class="pt-32"> <!-- 상단 패딩 증가 -->
   <div class="mx-auto max-w-6xl px-4">
     <div class="rounded-3xl bg-gradient-to-br from-sky-700/50 via-slate-900 to-slate-900 p-1">
       <div class="rounded-3xl bg-slate-950/70 p-6 md:p-10">
@@ -49,14 +50,14 @@
               AREXMADO 팬카페 & 커뮤니티 허브
             </h1>
             <p class="mt-4 text-slate-300 text-lg">
-              유튜브 팬들을 위한 공식 커뮤니티 🎉  
+              유튜브 팬들을 위한 공식 커뮤니티 🎉<br>
               공지, 최신 영상, 팬아트, 이벤트와 소통을 한 곳에서 즐겨보세요.
             </p>
             <div class="mt-6 flex flex-wrap gap-3">
               <a href="#news" class="px-5 py-3 rounded-2xl bg-cyan-500 text-slate-900 font-semibold hover:opacity-90">
                 공지 보기
               </a>
-              <a href="#community" class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800">
+              <a href="https://discord.gg/XKmYrcWu" target="_blank" class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800">
                 커뮤니티 참여
               </a>
             </div>
@@ -153,29 +154,23 @@
     document.body.classList.toggle("text-slate-900");
     document.body.classList.toggle("bg-slate-950");
     document.body.classList.toggle("text-slate-100");
-    themeBtn.textContent =
-      themeBtn.textContent === "라이트" ? "다크" : "라이트";
+    themeBtn.textContent = themeBtn.textContent === "라이트" ? "다크" : "라이트";
   });
 
-  // 🔥 스크롤에 따라 헤더 숨김/등장
+  // 스크롤에 따라 헤더 숨김/등장
   const header = document.querySelector("header");
   let lastScroll = 0;
 
   window.addEventListener("scroll", () => {
     let currentScroll = window.pageYOffset;
-
     if (currentScroll > lastScroll && currentScroll > 50) {
-      // 아래로 스크롤 → 헤더 숨김
-      header.style.transform = "translateY(-3.2%)";
+      header.style.transform = "translateY(-100%)";
     } else {
-      // 위로 스크롤 → 헤더 보이기
       header.style.transform = "translateY(0)";
     }
-
     lastScroll = currentScroll;
   });
 </script>
-
 
 </body>
 </html>
