@@ -14,10 +14,14 @@
   <style>
     .card-glow { box-shadow: 0 10px 25px rgba(2,132,199,.15); }
     .hide { display: none; }
-    header { transition: transform 0.3s ease; } /* 헤더 부드럽게 */
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 selection:bg-cyan-400/40">
+
+<!-- 최상단 표시용 제목 -->
+<div class="text-center text-3xl font-bold text-white mt-6">
+  AREXMADO-Community
+</div>
 
 <!-- 헤더 -->
 <header class="fixed inset-x-0 top-0 z-50 backdrop-blur bg-slate-900/80 border-b border-slate-800">
@@ -40,7 +44,7 @@
 </header>
 
 <!-- Hero -->
-<section id="top" class="pt-32"> <!-- 상단 패딩 증가 -->
+<section id="top" class="pt-32">
   <div class="mx-auto max-w-6xl px-4">
     <div class="rounded-3xl bg-gradient-to-br from-sky-700/50 via-slate-900 to-slate-900 p-1">
       <div class="rounded-3xl bg-slate-950/70 p-6 md:p-10">
@@ -57,7 +61,7 @@
               <a href="#news" class="px-5 py-3 rounded-2xl bg-cyan-500 text-slate-900 font-semibold hover:opacity-90">
                 공지 보기
               </a>
-              <a href="https://discord.gg/XKmYrcWu" target="_blank" class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800">
+              <a href="#community" class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-800">
                 커뮤니티 참여
               </a>
             </div>
@@ -128,8 +132,7 @@
   <div class="space-y-4">
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">가입은 어떻게 하나요?</summary>
-      <p class="mt-2 text-slate-300">이 사이트 자체는 정적 사이트라 가입 기능이 없습니다.  
-      팬카페 또는 Discord 서버에서 가입하실 수 있습니다.</p>
+      <p class="mt-2 text-slate-300">이 사이트 자체는 정적 사이트라 가입 기능이 없습니다. 팬카페 또는 Discord 서버에서 가입하실 수 있습니다.</p>
     </details>
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">이벤트 소식은 어디서 확인하나요?</summary>
@@ -160,7 +163,6 @@
   // 스크롤에 따라 헤더 숨김/등장
   const header = document.querySelector("header");
   let lastScroll = 0;
-
   window.addEventListener("scroll", () => {
     let currentScroll = window.pageYOffset;
     if (currentScroll > lastScroll && currentScroll > 50) {
