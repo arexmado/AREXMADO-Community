@@ -143,7 +143,10 @@
 </footer>
 
 <script>
+  // 연도 표시
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // 라이트/다크 모드 토글
   const themeBtn = document.getElementById("themeToggle");
   themeBtn.addEventListener("click", () => {
     document.body.classList.toggle("bg-white");
@@ -153,7 +156,26 @@
     themeBtn.textContent =
       themeBtn.textContent === "라이트" ? "다크" : "라이트";
   });
+
+  // 🔥 스크롤에 따라 헤더 숨김/등장
+  const header = document.querySelector("header");
+  let lastScroll = 0;
+
+  window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll && currentScroll > 50) {
+      // 아래로 스크롤 → 헤더 숨김
+      header.style.transform = "translateY(-100%)";
+    } else {
+      // 위로 스크롤 → 헤더 보이기
+      header.style.transform = "translateY(0)";
+    }
+
+    lastScroll = currentScroll;
+  });
 </script>
+
 
 </body>
 </html>
