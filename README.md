@@ -85,9 +85,14 @@
       <p class="mt-1 text-slate-300">팬 여러분 환영합니다! 앞으로 다양한 이벤트와 소식을 공유할 예정입니다.</p>
     </li>
     <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
-      <div class="text-sm text-slate-400">2025-09-01</div>
-      <div class="font-semibold mt-1">첫 번째 팬아트 이벤트 개최!</div>
-      <p class="mt-1 text-slate-300">멋진 팬아트를 올려주시면 추첨을 통해 특별 선물을 드립니다.</p>
+      <div class="text-sm text-slate-400">2025-08-24</div>
+      <div class="font-semibold mt-1">구독자 이벤트 개최 조건!</div>
+      <p class="mt-1 text-slate-300">유튜브 채널의 구독자 1,000명 이 되면 50개의 동영상을 10년내로 올리겠습니다.</p>
+    </li>
+        <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
+      <div class="text-sm text-slate-400">2025-08-24</div>
+      <div class="font-semibold mt-1">동영상 이벤트</div>
+      <p class="mt-1 text-slate-300">동영상을 보고 가장 좋은것을 네이버 펜카페에 올려주시면 제가 가장많은 표를 받은 글을 추첨해서 앤드카드에 올려드리겠습니다 .</p>
     </li>
   </ul>
 </section>
@@ -97,12 +102,12 @@
   <h2 class="text-2xl md:text-3xl font-bold mb-6">📅 일정</h2>
   <ul class="space-y-4">
     <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
-      <div class="font-semibold">2025년 9월 10일</div>
+      <div class="font-semibold">20??년 ?월 ??일</div>
       <p class="text-slate-300">라이브 방송 (Q&A 스트리밍)</p>
     </li>
     <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
-      <div class="font-semibold">2025년 9월 20일</div>
-      <p class="text-slate-300">팬아트 이벤트 마감</p>
+      <div class="font-semibold">2026년 8월 24일</div>
+      <p class="text-slate-300">동영상 이벤트 종료</p>
     </li>
   </ul>
 </section>
@@ -142,13 +147,19 @@
       <summary class="cursor-pointer font-semibold">이벤트 소식은 어디서 확인하나요?</summary>
       <p class="mt-2 text-slate-300">공지사항 섹션과 유튜브 커뮤니티, 팬카페 공지, soop(아프리카) 게시판을 확인해주세요.</p>
     </details>
+    <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
+      <summary class="cursor-pointer font-semibold">사이트의 불편한점 기재하는법은 무었인가요?</summary>
+      <p class="mt-2 text-slate-300">이메일 기재는 푸터에서 확인할수 있습니다.</p>
+    </details>
   </div>
 </section>
 
 <!-- 푸터 -->
-<footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500">
-  © 2025 AREXMADO Community. All rights reserved.
+<footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500 space-y-2">
+  <div>© 2025 AREXMADO Community. All rights reserved.</div>
+  <div>문의: <a href="mailto:arexmado@example.com" class="text-cyan-500 hover:underline">arexmado@example.com</a></div>
 </footer>
+
 
 <script>
   // 연도 표시
