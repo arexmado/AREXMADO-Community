@@ -151,6 +151,39 @@
   </div>
 </section>
 
+<!-- 영상 탭 -->
+<section id="videos" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-2xl md:text-3xl font-bold mb-6">🎬 영상</h2>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- 영상 카드 1 -->
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="rounded-2xl overflow-hidden shadow-lg bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
+      <img src="https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg" alt="영상 1" class="w-full">
+      <div class="p-4">
+        <div class="font-semibold text-slate-100">영상 제목 1</div>
+      </div>
+    </a>
+
+    <!-- 영상 카드 2 -->
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="rounded-2xl overflow-hidden shadow-lg bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
+      <img src="https://img.youtube.com/vi/VIDEO_ID_2/hqdefault.jpg" alt="영상 2" class="w-full">
+      <div class="p-4">
+        <div class="font-semibold text-slate-100">영상 제목 2</div>
+      </div>
+    </a>
+
+    <!-- 영상 카드 3 -->
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank" class="rounded-2xl overflow-hidden shadow-lg bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
+      <img src="https://img.youtube.com/vi/VIDEO_ID_3/hqdefault.jpg" alt="영상 3" class="w-full">
+      <div class="p-4">
+        <div class="font-semibold text-slate-100">영상 제목 3</div>
+      </div>
+    </a>
+
+    <!-- 더 많은 영상 카드 추가 가능 -->
+  </div>
+</section>
+
+
 <!-- 푸터 -->
 <footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500 space-y-2">
   <div>© 2025 AREXMADO Community. All rights reserved.</div>
