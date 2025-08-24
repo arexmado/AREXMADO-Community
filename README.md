@@ -166,7 +166,7 @@
 
     if (currentScroll > lastScroll && currentScroll > 50) {
       // 아래로 스크롤 → 헤더 숨김
-      header.style.transform = "translateY(-100%)";
+      header.style.transform = "translateY(-3.2%)";
     } else {
       // 위로 스크롤 → 헤더 보이기
       header.style.transform = "translateY(0)";
