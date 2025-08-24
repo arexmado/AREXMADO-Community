@@ -114,7 +114,7 @@
        class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
        🏠 네이버 팬카페
     </a>
-    <a href="#" target="_blank"
+    <a href="https://discord.gg/XKmYrcWu" target="_blank"
        class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
        🎮 Discord 서버
     </a>
