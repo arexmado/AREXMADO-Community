@@ -149,7 +149,7 @@
     </details>
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">사이트의 불편한점 기재하는법은 무었인가요?</summary>
-      <p class="mt-2 text-slate-300">이메일 기재는 푸터에서 확인할수 있습니다.</p>
+      <p class="mt-2 text-slate-300">이메일 기재는 사이트의 끝끝에서 확인할수 있습니다.</p>
     </details>
   </div>
 </section>
@@ -157,7 +157,7 @@
 <!-- 푸터 -->
 <footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500 space-y-2">
   <div>© 2025 AREXMADO Community. All rights reserved.</div>
-  <div>문의: <a href="mailto:arexmado@example.com" class="text-cyan-500 hover:underline">arexmado@example.com</a></div>
+  <div>문의: <a href="mailto:arexmado@example.com" class="text-cyan-500 hover:underline">arexmado@gmail.com</a></div>
 </footer>
 
 
