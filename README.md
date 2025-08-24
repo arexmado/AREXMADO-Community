@@ -14,6 +14,7 @@
   <style>
     .card-glow { box-shadow: 0 10px 25px rgba(2,132,199,.15); }
     .hide { display: none; }
+    iframe { border-radius: 1.5rem; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 selection:bg-cyan-400/40">
@@ -43,7 +44,7 @@
   </div>
 </header>
 
-<!-- Hero -->
+<!-- Hero + 유튜브 영상 -->
 <section id="top" class="pt-32">
   <div class="mx-auto max-w-6xl px-4">
     <div class="rounded-3xl bg-gradient-to-br from-sky-700/50 via-slate-900 to-slate-900 p-1">
@@ -66,8 +67,16 @@
               </a>
             </div>
           </div>
-          <div class="relative">
-            <img src="./images/og-image.png" alt="AREXMADO 팬카페" class="rounded-3xl card-glow">
+
+          <!-- 유튜브 영상 -->
+          <div class="relative aspect-video w-full rounded-3xl overflow-hidden shadow-lg">
+            <iframe class="w-full h-full"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    title="AREXMADO 유튜브 영상"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
@@ -89,10 +98,10 @@
       <div class="font-semibold mt-1">구독자 이벤트 개최 조건!</div>
       <p class="mt-1 text-slate-300">유튜브 채널의 구독자 1,000명 이 되면 50개의 동영상을 10년내로 올리겠습니다.</p>
     </li>
-        <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
+    <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
       <div class="text-sm text-slate-400">2025-08-24</div>
       <div class="font-semibold mt-1">동영상 이벤트</div>
-      <p class="mt-1 text-slate-300">동영상을 보고 가장 좋은것을 네이버 펜카페에 올려주시면 제가 가장많은 표를 받은 글을 추첨해서 앤드카드에 올려드리겠습니다 .</p>
+      <p class="mt-1 text-slate-300">동영상을 보고 가장 좋은것을 네이버 펜카페에 올려주시면 제가 가장 많은 표를 받은 글을 추첨해서 앤드카드에 올려드리겠습니다.</p>
     </li>
   </ul>
 </section>
@@ -116,22 +125,10 @@
 <section id="community" class="max-w-6xl mx-auto px-4 py-16">
   <h2 class="text-2xl md:text-3xl font-bold mb-6">💬 커뮤니티</h2>
   <div class="grid md:grid-cols-4 gap-6">
-    <a href="https://www.youtube.com/@arexmado" target="_blank"
-       class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
-       📺 YouTube 채널
-    </a>
-    <a href="https://cafe.naver.com/arex" target="_blank"
-       class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
-       🏠 네이버 팬카페
-    </a>
-    <a href="https://discord.gg/XKmYrcWu" target="_blank"
-       class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
-       🎮 Discord 서버
-    </a>
-    <a href="https://afreecatv.com/soop" target="_blank"
-       class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
-       📡 Soop 아프리카TV
-    </a>
+    <a href="https://www.youtube.com/@arexmado" target="_blank" class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">📺 YouTube 채널</a>
+    <a href="https://cafe.naver.com/arex" target="_blank" class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">🏠 네이버 팬카페</a>
+    <a href="https://discord.gg/XKmYrcWu" target="_blank" class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">🎮 Discord 서버</a>
+    <a href="https://afreecatv.com/soop" target="_blank" class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 hover:bg-slate-800">📡 Soop 아프리카TV</a>
   </div>
 </section>
 
@@ -145,11 +142,11 @@
     </details>
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">이벤트 소식은 어디서 확인하나요?</summary>
-      <p class="mt-2 text-slate-300">공지사항 섹션과 유튜브 커뮤니티, 팬카페 공지, soop(아프리카) 게시판을 확인해주세요.</p>
+      <p class="mt-2 text-slate-300">공지사항 섹션과 유튜브 커뮤니티, 팬카페 공지, Soop(아프리카) 게시판을 확인해주세요.</p>
     </details>
     <details class="rounded-2xl bg-slate-900/70 border border-slate-800 p-4">
       <summary class="cursor-pointer font-semibold">사이트의 불편한점 기재하는법은 무었인가요?</summary>
-      <p class="mt-2 text-slate-300">이메일 기재는 사이트의 끝끝에서 확인할수 있습니다.</p>
+      <p class="mt-2 text-slate-300">이메일 기재는 사이트의 끝에서 확인할 수 있습니다.</p>
     </details>
   </div>
 </section>
@@ -160,18 +157,24 @@
   <div>문의: <a href="mailto:arexmado@example.com" class="text-cyan-500 hover:underline">arexmado@gmail.com</a></div>
 </footer>
 
-
 <script>
-  // 연도 표시
-  document.getElementById("year").textContent = new Date().getFullYear();
-
   // 라이트/다크 모드 토글
   const themeBtn = document.getElementById("themeToggle");
   themeBtn.addEventListener("click", () => {
-    document.body.classList.toggle("bg-white");
-    document.body.classList.toggle("text-slate-900");
     document.body.classList.toggle("bg-slate-950");
     document.body.classList.toggle("text-slate-100");
+    document.body.classList.toggle("bg-white");
+    document.body.classList.toggle("text-slate-900");
+
+    // 각 섹션 카드 배경 토글
+    document.querySelectorAll('section, footer, details').forEach(el => {
+      el.classList.toggle('bg-slate-950/70');
+      el.classList.toggle('bg-white/70');
+      el.classList.toggle('border-slate-800');
+      el.classList.toggle('border-slate-300');
+    });
+
+    // 버튼 텍스트 변경
     themeBtn.textContent = themeBtn.textContent === "라이트" ? "다크" : "라이트";
   });
 
