@@ -10,7 +10,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/og-image.png" />
   <meta name="theme-color" content="#0ea5e9" />
-  <script src="https://www.youtube.com/watch?v=n8bMnPvZnWs"></script>
+  <script src=""></script>
   <style>
     .card-glow { box-shadow: 0 10px 25px rgba(2,132,199,.15); }
     .hide { display: none; }
@@ -71,7 +71,7 @@
           <!-- 유튜브 영상 -->
           <div class="relative aspect-video w-full rounded-3xl overflow-hidden shadow-lg">
             <iframe class="w-full h-full"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    src="https://www.youtube.com/embed/n8bMnPvZnWs"
                     title="AREXMADO 유튜브 영상"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -101,7 +101,7 @@
     <li class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800">
       <div class="text-sm text-slate-400">2025-08-24</div>
       <div class="font-semibold mt-1">동영상 이벤트</div>
-      <p class="mt-1 text-slate-300">동영상을 보고 가장 좋은것을 네이버 펜카페에 올려주시면 제가 가장 많은 표를 받은 글을 추첨해서 앤드카드에 올려드리겠습니다.</p>
+      <p class="mt-1 text-slate-300">동영상을 보고 가장 좋은것을 네이버 팬카페에 올려주시면 제가 가장 많은 표를 받은 글을 추첨해서 앤드카드에 올려드리겠습니다.</p>
     </li>
   </ul>
 </section>
@@ -156,10 +156,10 @@
   <h2 class="text-2xl md:text-3xl font-bold mb-6">🎬 영상</h2>
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     <!-- 영상 카드 1 -->
-    <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="rounded-2xl overflow-hidden shadow-lg bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
-      <img src="https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg" alt="영상 1" class="w-full">
+    <a href="https://www.youtube.com/watch?v=n8bMnPvZnWs" target="_blank" class="rounded-2xl overflow-hidden shadow-lg bg-slate-900/70 border border-slate-800 hover:bg-slate-800">
+      <img src="https://img.youtube.com/vi/n8bMnPvZnWs/hqdefault.jpg" alt="영상 1" class="w-full">
       <div class="p-4">
-        <div class="font-semibold text-slate-100">영상 제목 1</div>
+        <div class="font-semibold text-slate-100">AREXMADO 최신 영상</div>
       </div>
     </a>
 
@@ -178,11 +178,8 @@
         <div class="font-semibold text-slate-100">영상 제목 3</div>
       </div>
     </a>
-
-    <!-- 더 많은 영상 카드 추가 가능 -->
   </div>
 </section>
-
 
 <!-- 푸터 -->
 <footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500 space-y-2">
@@ -199,7 +196,6 @@
     document.body.classList.toggle("bg-white");
     document.body.classList.toggle("text-slate-900");
 
-    // 각 섹션 카드 배경 토글
     document.querySelectorAll('section, footer, details').forEach(el => {
       el.classList.toggle('bg-slate-950/70');
       el.classList.toggle('bg-white/70');
@@ -207,7 +203,6 @@
       el.classList.toggle('border-slate-300');
     });
 
-    // 버튼 텍스트 변경
     themeBtn.textContent = themeBtn.textContent === "라이트" ? "다크" : "라이트";
   });
 
