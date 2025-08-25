@@ -10,7 +10,6 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/og-image.png" />
   <meta name="theme-color" content="#0ea5e9" />
-  <script src=""></script>
   <style>
     .card-glow { box-shadow: 0 10px 25px rgba(2,132,199,.15); }
     .hide { display: none; }
