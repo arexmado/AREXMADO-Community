@@ -187,7 +187,7 @@
 <!-- 푸터 -->
 <footer class="border-t border-slate-800 py-10 text-center text-sm text-slate-500 space-y-2">
   <div>© 2025 AREXMADO Community. All rights reserved.</div>
-  <div>문의: <a href="mailto:arexmado@gmail.com" class="text-cyan-500 hover:underline">arexmado@gmail.com</a></div>
+  <div>문의: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=arexmado1@gmail.com" class="text-cyan-500 hover:underline">arexmado1@gmail.com</a></div>
 </footer>
 
 <script>
